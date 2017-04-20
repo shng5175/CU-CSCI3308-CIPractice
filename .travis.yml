@@ -6,6 +6,4 @@ script: ./configure && make clean && make test
 
 language: c
 
-script: scons
-
 compiler: gcc
