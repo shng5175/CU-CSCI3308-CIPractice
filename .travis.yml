@@ -1,4 +1,4 @@
-install: make get dep
+install: make dep
 
 script: make clean && make test
 
