@@ -2,8 +2,7 @@ sudo: apt-get install check
 
 install: make dep
 
-script: make clean
-	make test
+script: make test
 
 language: c
 
