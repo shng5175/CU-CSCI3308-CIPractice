@@ -1,3 +1,5 @@
+sudo: apt-get install check
+
 install: make dep
 
 script: ./configure && make clean && make test
