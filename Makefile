@@ -29,3 +29,7 @@ clean:
 	$(RM) *.o
 	$(RM) geometry_test
 	$(RM) *~
+
+test: geometry_test
+	./geometry_test
+	
