@@ -1,8 +1,6 @@
-sudo: apt-get install check
+install: make get dep
 
-install: make dep
-
-script: make test
+script: make clean && make test
 
 language: c
 
