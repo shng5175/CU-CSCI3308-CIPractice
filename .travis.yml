@@ -1,5 +1,3 @@
-sudo: apt-get install check
-
 install: make dep
 
 script: make test
